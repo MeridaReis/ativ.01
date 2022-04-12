@@ -1,0 +1,31 @@
+.app{
+    display: grid;
+    grid-template-areas:
+    "cabecalho  cabecalho cabecalho"
+    "propaganda conteudo conteudo"
+    "rodape conteudo conteudo";
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+} 
+
+
+.header{
+    grid-area: cabecalho;
+    border: solid 1px black;
+    }
+
+.aside{
+    grid-area: propaganda;
+    border: solid 1px black;
+
+}
+
+.main{
+    grid-area: conteudo;
+    border: solid 1px black;
+}
+
+.footer{
+    grid-area: rodape;
+    border: solid 1px black;
+}
